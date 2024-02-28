@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
@@ -24,25 +25,29 @@ public class AppController {
         this.choosingService = choosingService;
     }
 
-    @GetMapping("/index")
-    public String index(Model model){
+    @GetMapping("/main")
+    public String main(Model model){
         model.addAttribute("map", choosingService.findAll());
+        return "main";
+    }
+    @GetMapping("/index")
+    public String index(){
         return "index";
     }
-    @PostMapping("/choose")
-    public String choose(@ModelAttribute("nums") List<Integer> nums){
-        StringBuilder str = new StringBuilder();
-        for (int i : nums)
-            str.append(i).append(" ");
+    @GetMapping("/choose")
+    public String choose(@RequestParam("choice") String choice,
+                         Model model){
+        System.out.println("вызвано, получили " + choice);
         UriComponents uriComponents = UriComponentsBuilder.newInstance()
                 .scheme("http")
-                .host("localhost:8081")
+                .host("localhost:8000")
                 .path("/ml")
-                .queryParam("str", str.toString())
+                .queryParam("str", choice)
                 .build();
         String url = uriComponents.toUriString();
 
         String response = restTemplate.getForObject(url, String.class);
-        return response;
+        model.addAttribute("hero", "переданная строка: " + choice);
+        return "hero";
     }
 }
