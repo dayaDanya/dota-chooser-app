@@ -1,5 +1,8 @@
 package org.goncharov.dotachooserweb.controllers;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.goncharov.dotachooserweb.domain.dto.HeroDto;
 import org.goncharov.dotachooserweb.services.ChoosingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,24 +22,30 @@ public class AppController {
 
     private final RestTemplate restTemplate;
     private final ChoosingService choosingService;
+
+    private final ObjectMapper objectMapper;
+
     @Autowired
-    public AppController(RestTemplate restTemplate, ChoosingService choosingService) {
+    public AppController(RestTemplate restTemplate, ChoosingService choosingService, ObjectMapper objectMapper) {
         this.restTemplate = restTemplate;
         this.choosingService = choosingService;
+        this.objectMapper = objectMapper;
     }
 
     @GetMapping("/main")
-    public String main(Model model){
+    public String main(Model model) {
         model.addAttribute("map", choosingService.findAll());
         return "main";
     }
+
     @GetMapping("/index")
-    public String index(){
+    public String index() {
         return "index";
     }
+
     @GetMapping("/choose")
     public String choose(@RequestParam("choice") String choice,
-                         Model model){
+                         Model model) {
         System.out.println("вызвано, получили " + choice);
         UriComponents uriComponents = UriComponentsBuilder.newInstance()
                 .scheme("http")
@@ -47,7 +56,12 @@ public class AppController {
         String url = uriComponents.toUriString();
 
         String response = restTemplate.getForObject(url, String.class);
-        model.addAttribute("hero", "переданная строка: " + choice);
+        try {
+            HeroDto dto =  objectMapper.readValue(response, HeroDto.class);
+            model.addAttribute("hero", choosingService.toName(dto.getNumber()));
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
         return "hero";
     }
 }
