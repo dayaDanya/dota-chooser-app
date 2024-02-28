@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf Example</title>
+    <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+    <script>
+        $(document).ready(function () {
+            $('.addToSelectedList').click(function () {
+                let integerVal = $(this).data('integer');
+                let stringValue = $(this).data('string');
+
+                // Add to a string or perform any client-side logic
+                let currentValues = $('#selectedValues').text();
+                currentValues += integerVal + ' ';
+                $('#selectedValues').text(currentValues);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<table>
+    <thead>
+    <tr>
+        <th>Integer</th>
+        <th>String</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="entry : ${map}">
+        <td th:text="${entry.key}"></td>
+        <td th:text="${entry.value}"></td>
+        <td>
+            <a href="#" class="addToSelectedList"
+               th:data-integer="${entry.key}" th:data-string="${entry.value}">
+                Add to List
+            </a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<div id="selectedValues"></div>
+
+<form th:action="@{/choose}" method="get">
+    <input type="submit" value="Process Selected List"/>
+</form>
+
+</body>
+</html>
