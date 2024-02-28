@@ -42,7 +42,7 @@ public class AppController {
                 .scheme("http")
                 .host("localhost:8000")
                 .path("/ml")
-                .queryParam("str", choice)
+                .queryParam("choice", choice)
                 .build();
         String url = uriComponents.toUriString();
 
