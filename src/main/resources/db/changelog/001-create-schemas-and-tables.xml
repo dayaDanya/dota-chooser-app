@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.10.xsd">
+
+    <changeSet id="001-create-schema" author="dayaDanya">
+
+        <sql>CREATE SCHEMA entities</sql>
+    </changeSet>
+
+    <changeSet id="001-create-tables" author="dayaDanya">
+        <createTable schemaName="entities" tableName="hero">
+            <column name="id" type="SERIAL">
+                <constraints primaryKey="true" nullable="false" primaryKeyName="pk_hero"/>
+            </column>
+            <column name="name" type="VARCHAR(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="category" type="VARCHAR(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="image_link" type="VARCHAR(255)">
+                <constraints nullable="false" />
+            </column>
+        </createTable>
+        </changeSet>
+
+
+
+</databaseChangeLog>
