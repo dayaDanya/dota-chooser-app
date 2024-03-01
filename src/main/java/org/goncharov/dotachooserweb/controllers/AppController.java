@@ -2,6 +2,10 @@ package org.goncharov.dotachooserweb.controllers;
 
 import org.goncharov.dotachooserweb.services.ChoosingService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -26,18 +30,16 @@ public class AppController {
     }
 
     @GetMapping("/main")
-    public String main(Model model){
-        model.addAttribute("map", choosingService.findAll());
-        return "main";
+    public ResponseEntity<?> main(){
+        return new ResponseEntity<>(choosingService.findAll(), HttpStatus.OK);
     }
     @GetMapping("/index")
     public String index(){
         return "index";
     }
     @GetMapping("/choose")
-    public String choose(@RequestParam("choice") String choice,
+    public ResponseEntity<String> choose(@RequestParam("choice") String choice,
                          Model model){
-        System.out.println("вызвано, получили " + choice);
         UriComponents uriComponents = UriComponentsBuilder.newInstance()
                 .scheme("http")
                 .host("localhost:8000")
@@ -45,9 +47,7 @@ public class AppController {
                 .queryParam("choice", choice)
                 .build();
         String url = uriComponents.toUriString();
+        return restTemplate.exchange(url, HttpMethod.GET, null, String.class);
 
-        String response = restTemplate.getForObject(url, String.class);
-        model.addAttribute("hero", "переданная строка: " + choice);
-        return "hero";
     }
 }
