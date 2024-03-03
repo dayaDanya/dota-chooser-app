@@ -8,868 +8,868 @@
         <insert tableName="entities.hero">
             <column name="name" value="Abaddon"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/1_Abaddon.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/1_Abaddon.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_2" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Alchemist"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/2_Alchemist.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/2_Alchemist.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_3" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Ancient Apparition"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/3_Ancient_Apparition.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/3_Ancient_Apparition.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_4" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Anti-Mage"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/4_Anti-Mage.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/4_Anti-Mage.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_5" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Arc Warden"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/5_Arc_Warden.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/5_Arc_Warden.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_6" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Axe"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/6_Axe.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/6_Axe.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_7" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Bane"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/7_Bane.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/7_Bane.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_8" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Batrider"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/8_Batrider.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/8_Batrider.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_9" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Beastmaster"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/9_Beastmaster.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/9_Beastmaster.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_10" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Bloodseeker"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/10_Bloodseeker.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/10_Bloodseeker.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_11" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Bounty Hunter"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/11_Bounty_Hunter.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/11_Bounty_Hunter.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_12" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Brewmaster"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/12_Brewmaster.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/12_Brewmaster.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_13" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Bristleback"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/13_Bristleback.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/13_Bristleback.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_14" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Broodmother"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/14_Broodmother.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/14_Broodmother.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_15" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Centaur Warrunner"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/15_Centaur_Warrunner.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/15_Centaur_Warrunner.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_16" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Chaos Knight"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/16_Chaos_Knight.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/16_Chaos_Knight.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_17" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Chen"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/17_Chen.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/17_Chen.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_18" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Clinkz"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/18_Clinkz.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/18_Clinkz.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_19" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Clockwerk"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/19_Clockwerk.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/19_Clockwerk.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_20" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Crystal Maiden"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/20_Crystal_Maiden.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/20_Crystal_Maiden.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_21" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Dark Seer"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/21_Dark_Seer.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/21_Dark_Seer.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_22" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Dark Willow"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/22_Dark_Willow.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/22_Dark_Willow.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_23" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Dawnbreaker"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/23_Dawnbreaker.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/23_Dawnbreaker.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_24" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Dazzle"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/24_Dazzle.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/24_Dazzle.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_25" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Death Prophet"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/25_Death_Prophet.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/25_Death_Prophet.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_26" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Disruptor"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/26_Disruptor.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/26_Disruptor.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_27" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Doom"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/27_Doom.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/27_Doom.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_28" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Dragon Knight"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/28_Dragon_Knight.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/28_Dragon_Knight.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_29" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Drow Ranger"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/29_Drow_Ranger.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/29_Drow_Ranger.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_30" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Earth Spirit"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/30_Earth_Spirit.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/30_Earth_Spirit.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_31" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Earthshaker"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/31_Earthshaker.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/31_Earthshaker.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_32" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Elder Titan"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/32_Elder_Titan.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/32_Elder_Titan.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_33" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Ember Spirit"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/33_Ember_Spirit.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/33_Ember_Spirit.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_34" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Enchantress"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/34_Enchantress.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/34_Enchantress.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_35" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Enigma"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/35_Enigma.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/35_Enigma.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_36" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Faceless Void"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/36_Faceless_Void.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/36_Faceless_Void.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_37" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Grimstroke"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/37_Grimstroke.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/37_Grimstroke.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_38" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Gyrocopter"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/38_Gyrocopter.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/38_Gyrocopter.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_39" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Hoodwink"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/39_Hoodwink.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/39_Hoodwink.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_40" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Huskar"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/40_Huskar.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/40_Huskar.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_41" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Invoker"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/41_Invoker.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/41_Invoker.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_42" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Io"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/42_Io.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/42_Io.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_43" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Jakiro"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/43_Jakiro.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/43_Jakiro.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_44" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Juggernaut"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/44_Juggernaut.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/44_Juggernaut.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_45" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Keeper of the Light"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/45_Keeper_of_the_Light.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/45_Keeper_of_the_Light.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_46" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Kunkka"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/46_Kunkka.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/46_Kunkka.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_47" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Legion Commander"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/47_Legion_Commander.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/47_Legion_Commander.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_48" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Leshrac"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/48_Leshrac.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/48_Leshrac.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_49" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Lich"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/49_Lich.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/49_Lich.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_50" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Lifestealer"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/50_Lifestealer.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/50_Lifestealer.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_51" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Lina"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/51_Lina.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/51_Lina.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_52" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Lion"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/52_Lion.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/52_Lion.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_53" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Lone Druid"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/53_Lone_Druid.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/53_Lone_Druid.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_54" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Luna"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/54_Luna.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/54_Luna.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_55" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Lycan"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/55_Lycan.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/55_Lycan.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_56" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Magnus"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/56_Magnus.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/56_Magnus.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_57" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Marci"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/57_Marci.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/57_Marci.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_58" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Mars"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/58_Mars.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/58_Mars.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_59" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Medusa"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/59_Medusa.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/59_Medusa.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_60" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Meepo"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/60_Meepo.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/60_Meepo.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_61" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Mirana"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/61_Mirana.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/61_Mirana.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_62" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Monkey King"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/62_Monkey_King.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/62_Monkey_King.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_63" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Morphling"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/63_Morphling.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/63_Morphling.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_64" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Muerta"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/64_Muerta.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/64_Muerta.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_65" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Naga Siren"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/65_Naga_Siren.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/65_Naga_Siren.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_66" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Nature's Prophet"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/66_Nature's_Prophet.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/66_Nature's_Prophet.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_67" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Necrophos"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/67_Necrophos.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/67_Necrophos.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_68" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Night Stalker"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/68_Night_Stalker.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/68_Night_Stalker.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_69" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Nyx Assassin"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/69_Nyx_Assassin.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/69_Nyx_Assassin.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_70" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Ogre Magi"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/70_Ogre_Magi.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/70_Ogre_Magi.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_71" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Omniknight"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/71_Omniknight.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/71_Omniknight.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_72" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Oracle"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/72_Oracle.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/72_Oracle.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_73" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Outworld Destroyer"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/73_Outworld_Destroyer.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/73_Outworld_Destroyer.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_74" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Pangolier"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/74_Pangolier.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/74_Pangolier.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_75" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Phantom Assassin"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/75_Phantom_Assassin.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/75_Phantom_Assassin.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_76" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Phantom Lancer"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/76_Phantom_Lancer.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/76_Phantom_Lancer.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_77" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Phoenix"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/77_Phoenix.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/77_Phoenix.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_78" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Primal Beast"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/78_Primal_Beast.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/78_Primal_Beast.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_79" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Puck"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/79_Puck.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/79_Puck.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_80" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Pudge"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/80_Pudge.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/80_Pudge.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_81" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Pugna"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/81_Pugna.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/81_Pugna.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_82" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Queen of Pain"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/82_Queen_of_Pain.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/82_Queen_of_Pain.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_83" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Razor"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/83_Razor.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/83_Razor.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_84" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Riki"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/84_Riki.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/84_Riki.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_85" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Rubick"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/85_Rubick.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/85_Rubick.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_86" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Sand King"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/86_Sand_King.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/86_Sand_King.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_87" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Shadow Demon"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/87_Shadow_Demon.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/87_Shadow_Demon.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_88" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Shadow Fiend"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/88_Shadow_Fiend.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/88_Shadow_Fiend.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_89" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Shadow Shaman"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/89_Shadow_Shaman.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/89_Shadow_Shaman.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_90" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Silencer"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/90_Silencer.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/90_Silencer.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_91" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Skywrath Mage"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/91_Skywrath_Mage.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/91_Skywrath_Mage.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_92" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Slardar"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/92_Slardar.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/92_Slardar.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_93" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Slark"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/93_Slark.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/93_Slark.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_94" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Snapfire"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/94_Snapfire.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/94_Snapfire.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_95" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Sniper"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/95_Sniper.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/95_Sniper.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_96" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Spectre"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/96_Spectre.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/96_Spectre.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_97" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Spirit Breaker"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/97_Spirit_Breaker.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/97_Spirit_Breaker.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_98" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Storm Spirit"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/98_Storm_Spirit.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/98_Storm_Spirit.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_99" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Sven"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/99_Sven.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/99_Sven.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_100" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Techies"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/100_Techies.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/100_Techies.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_101" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Templar Assassin"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/101_Templar_Assassin.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/101_Templar_Assassin.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_102" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Terrorblade"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/102_Terrorblade.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/102_Terrorblade.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_103" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Tidehunter"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/103_Tidehunter.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/103_Tidehunter.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_104" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Timbersaw"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/104_Timbersaw.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/104_Timbersaw.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_105" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Tinker"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/105_Tinker.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/105_Tinker.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_106" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Tiny"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/106_Tiny.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/106_Tiny.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_107" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Treant Protector"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/107_Treant_Protector.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/107_Treant_Protector.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_108" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Troll Warlord"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/108_Troll_Warlord.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/108_Troll_Warlord.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_109" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Tusk"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/109_Tusk.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/109_Tusk.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_110" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Underlord"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/110_Underlord.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/110_Underlord.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_111" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Undying"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/111_Undying.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/111_Undying.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_112" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Ursa"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/112_Ursa.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/112_Ursa.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_113" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Vengeful Spirit"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/113_Vengeful_Spirit.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/113_Vengeful_Spirit.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_114" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Venomancer"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/114_Venomancer.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/114_Venomancer.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_115" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Viper"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/115_Viper.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/115_Viper.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_116" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Visage"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/116_Visage.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/116_Visage.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_117" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Void Spirit"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/117_Void_Spirit.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/117_Void_Spirit.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_118" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Warlock"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/118_Warlock.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/118_Warlock.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_119" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Weaver"/>
             <column name="category" value="AGILITY"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/agility/119_Weaver.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/agility/119_Weaver.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_120" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Windranger"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/120_Windranger.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/120_Windranger.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_121" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Winter Wyvern"/>
             <column name="category" value="UNIVERSAL"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/universal/121_Winter_Wyvern.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/universal/121_Winter_Wyvern.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_122" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Witch Doctor"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/122_Witch_Doctor.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/122_Witch_Doctor.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_123" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Wraith King"/>
             <column name="category" value="STRENGTH"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/strength/123_Wraith_King.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/strength/123_Wraith_King.jpg"/>
         </insert>
     </changeSet>
     <changeSet id="insert_hero_124" author="dayaDanya">
         <insert tableName="entities.hero">
             <column name="name" value="Zeus"/>
             <column name="category" value="INTELLIGENCE"/>
-            <column name="image_link" value="C:/Users/danil/Desktop/img/img/intelligence/124_Zeus.jpg"/>
+            <column name="image_link" value="org/goncharov/dotachooserweb/img/intelligence/124_Zeus.jpg"/>
         </insert>
     </changeSet>
 
