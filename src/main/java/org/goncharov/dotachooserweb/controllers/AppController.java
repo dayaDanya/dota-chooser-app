@@ -1,5 +1,6 @@
 package org.goncharov.dotachooserweb.controllers;
 
+import org.goncharov.dotachooserweb.domain.Hero;
 import org.goncharov.dotachooserweb.services.ChoosingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
@@ -9,6 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
@@ -33,8 +35,7 @@ public class AppController {
         return "index";
     }
     @GetMapping("/choose")
-    public ResponseEntity<String> choose(@RequestParam("choice") String choice,
-                         Model model){
+    public ResponseEntity<?> choose(@RequestParam("choice") String choice){
         UriComponents uriComponents = UriComponentsBuilder.newInstance()
                 .scheme("http")
                 .host("localhost:8000")
@@ -42,7 +43,13 @@ public class AppController {
                 .queryParam("choice", choice)
                 .build();
         String url = uriComponents.toUriString();
-        return restTemplate.exchange(url, HttpMethod.GET, null, String.class);
+        try {
+            ResponseEntity<String> exchange = restTemplate.exchange(url, HttpMethod.GET, null, String.class);
+            Hero hero = choosingService.findById(Integer.parseInt(exchange.getBody()));
+            return new ResponseEntity<>(hero, HttpStatus.OK);
+        }catch (RuntimeException e){
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+        }
 
     }
 }
