@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.dotachooser.grpc;
+
+message Heroes{
+  repeated int32 list = 1;
+}
+
+message Hero{
+  int32 choice = 1;
+}
+
+service ChoosingService{
+  rpc choosing(Heroes) returns (Hero);
+}
