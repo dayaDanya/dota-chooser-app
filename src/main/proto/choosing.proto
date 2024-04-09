@@ -3,8 +3,7 @@ syntax = "proto3";
 package com.dotachooser.grpc;
 
 message Heroes{
-  repeated int32 myTeam = 1;
-  repeated int32 enemyTeam = 2;
+  repeated int32 list = 1;
 }
 
 message Hero{

@@ -3,7 +3,6 @@ package org.goncharov.dotachooserweb.controllers;
 import com.dotachooser.grpc.Choosing;
 import com.dotachooser.grpc.ChoosingServiceGrpc;
 import io.grpc.ManagedChannel;
-import io.grpc.ManagedChannelBuilder;
 import jakarta.annotation.PostConstruct;
 import org.goncharov.dotachooserweb.domain.Hero;
 import org.goncharov.dotachooserweb.dto.HeroesDto;
@@ -28,23 +27,24 @@ public class AppController {
         this.choosingService = choosingService;
         this.managedChannel = managedChannel;
     }
+
     @PostConstruct
-    private void initializeStub(){
+    private void initializeStub() {
         stub = ChoosingServiceGrpc.newBlockingStub(managedChannel);
     }
 
     @PostMapping("/choose")
-    public ResponseEntity<?> choose(@RequestBody HeroesDto dto){
+    public ResponseEntity<?> choose(@RequestBody HeroesDto dto) {
         System.out.println("Получили dto: " + dto.toString());
         var response = stub.choosing(Choosing.Heroes.newBuilder()
-                        .addAllMyTeam(dto.getMyTeam())
-                        .addAllEnemyTeam(dto.getEnemyTeam())
+                .addAllList(
+                        choosingService.sumList(dto.getEnemyTeam(), dto.getMyTeam()))
                 .build());
-        managedChannel.shutdownNow();
+       // managedChannel.shutdownNow();
         try {
             Hero hero = choosingService.findById(response.getChoice());
             return new ResponseEntity<>(hero, HttpStatus.OK);
-        }catch (RuntimeException e){
+        } catch (RuntimeException e) {
             return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
 

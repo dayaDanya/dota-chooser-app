@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Stream;
 
 @Service
 public class ChoosingService {
@@ -26,5 +27,8 @@ public class ChoosingService {
     }
     public Hero findById(int id){
         return heroRepo.findById(id).orElseThrow(() -> new RuntimeException("Hero with id = : " + id + " not found!"));
+    }
+    public List<Integer> sumList(List<Integer> enemyTeam, List<Integer> myTeam){
+        return Stream.concat(enemyTeam.stream(), myTeam.stream()).toList();
     }
 }

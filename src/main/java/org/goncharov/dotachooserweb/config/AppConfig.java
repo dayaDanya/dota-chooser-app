@@ -9,15 +9,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Configuration
 public class AppConfig {
-    @Bean
-    RestTemplate restTemplate(){
-        return new RestTemplate();
-    }
 
-    @Bean
-    ObjectMapper objectMapper(){
-        return new ObjectMapper();
-    }
 
     @Bean
     ManagedChannel managedChannel(){
