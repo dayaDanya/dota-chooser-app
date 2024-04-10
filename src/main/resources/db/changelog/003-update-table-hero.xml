@@ -7,7 +7,7 @@
     <sql>
         UPDATE entities.hero
         SET image_link = REPLACE(image_link, 'org/goncharov/dotachooserweb', 'images')
-        WHERE your_column_name LIKE '%org/goncharov/dotachooserweb/%';
+        WHERE image_link LIKE '%org/goncharov/dotachooserweb%';
     </sql>
     </changeSet>
 
