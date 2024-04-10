@@ -1,10 +1,17 @@
 package org.goncharov.dotachooserweb.dto;
 
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Size;
+
 import java.util.List;
 
 public class HeroesDto {
-     private List<Integer> myTeam;
-     private List<Integer> enemyTeam;
+    @NotEmpty(message = "\"myTeam\" list must not be empty")
+    @Size(min = 4, max = 4, message = "\"myTeam\" list's size has to equal 4")
+    private List<Integer> myTeam;
+    @NotEmpty(message = "\"enemyTeam\" list must not be empty")
+    @Size(min = 4, max = 4, message = "\"enemyTeam\" list's size has to equal 4")
+    private List<Integer> enemyTeam;
 
     public List<Integer> getMyTeam() {
         return myTeam;

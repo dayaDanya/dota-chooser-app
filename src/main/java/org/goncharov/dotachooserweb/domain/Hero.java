@@ -11,6 +11,7 @@ public class Hero {
     private int id;
     @Column(name = "name")
     private String name;
+    @Enumerated(EnumType.STRING)
     @Column(name = "category")
     private Category category;
     @Column(name = "image_link")

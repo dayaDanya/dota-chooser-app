@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.10.xsd">
+    <changeSet id="update-hero-image_link" author="dayaDanya">
+    <sql>
+        UPDATE entities.hero
+        SET image_link = REPLACE(image_link, 'org/goncharov/dotachooserweb', 'images')
+        WHERE your_column_name LIKE '%org/goncharov/dotachooserweb/%';
+    </sql>
+    </changeSet>
+
+</databaseChangeLog>

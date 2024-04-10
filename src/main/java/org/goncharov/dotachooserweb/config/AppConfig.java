@@ -1,19 +1,16 @@
 package org.goncharov.dotachooserweb.config;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.client.RestTemplate;
 
 @Configuration
 public class AppConfig {
 
-
     @Bean
     ManagedChannel managedChannel(){
-        return ManagedChannelBuilder.forTarget("localhost:8000")
+        return ManagedChannelBuilder.forTarget("localhost:50051")
                 .usePlaintext().build();
     }
 }

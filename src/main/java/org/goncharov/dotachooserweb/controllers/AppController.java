@@ -4,6 +4,7 @@ import com.dotachooser.grpc.Choosing;
 import com.dotachooser.grpc.ChoosingServiceGrpc;
 import io.grpc.ManagedChannel;
 import jakarta.annotation.PostConstruct;
+import jakarta.validation.Valid;
 import org.goncharov.dotachooserweb.domain.Hero;
 import org.goncharov.dotachooserweb.dto.HeroesDto;
 import org.goncharov.dotachooserweb.services.ChoosingService;
@@ -34,13 +35,11 @@ public class AppController {
     }
 
     @PostMapping("/choose")
-    public ResponseEntity<?> choose(@RequestBody HeroesDto dto) {
+    public ResponseEntity<?> choose(@Valid @RequestBody HeroesDto dto) {
         System.out.println("Получили dto: " + dto.toString());
         var response = stub.choosing(Choosing.Heroes.newBuilder()
-                .addAllList(
-                        choosingService.sumList(dto.getEnemyTeam(), dto.getMyTeam()))
+                .addAllList(choosingService.sumList(dto.getEnemyTeam(), dto.getMyTeam()))
                 .build());
-       // managedChannel.shutdownNow();
         try {
             Hero hero = choosingService.findById(response.getChoice());
             return new ResponseEntity<>(hero, HttpStatus.OK);

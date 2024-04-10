@@ -8,4 +8,5 @@
 
     <include file="001-create-schemas-and-tables.xml" relativeToChangelogFile="true"/>
     <include file="002-insert-into-hero.xml" relativeToChangelogFile="true"/>
+    <include file="003-update-table-hero.xml" relativeToChangelogFile="true"/>
 </databaseChangeLog>
