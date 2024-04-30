@@ -1,39 +1,18 @@
 package org.goncharov.dotachooserweb.dto;
 
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.Size;
-
-import java.util.List;
+import org.goncharov.dotachooserweb.domain.Category;
+import org.goncharov.dotachooserweb.domain.Hero;
 
 public class HeroesDto {
-    @NotEmpty(message = "\"myTeam\" list must not be empty")
-    @Size(min = 4, max = 4, message = "\"myTeam\" list's size has to equal 4")
-    private List<Integer> myTeam;
-    @NotEmpty(message = "\"enemyTeam\" list must not be empty")
-    @Size(min = 4, max = 4, message = "\"enemyTeam\" list's size has to equal 4")
-    private List<Integer> enemyTeam;
+    private int id;
+    private String name;
+    private Category category;
+    private byte[] image;
 
-    public List<Integer> getMyTeam() {
-        return myTeam;
-    }
-
-    public void setMyTeam(List<Integer> myTeam) {
-        this.myTeam = myTeam;
-    }
-
-    public List<Integer> getEnemyTeam() {
-        return enemyTeam;
-    }
-
-    public void setEnemyTeam(List<Integer> enemyTeam) {
-        this.enemyTeam = enemyTeam;
-    }
-
-    @Override
-    public String toString() {
-        return "HeroesDto{" +
-                "myTeam=" + myTeam +
-                ", enemyTeam=" + enemyTeam +
-                '}';
+    public HeroesDto(Hero hero, byte[] image) {
+        this.id = hero.getId();
+        this.name = hero.getName();
+        this.category = hero.getCategory();
+        this.image = image;
     }
 }

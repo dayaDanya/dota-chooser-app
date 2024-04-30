@@ -6,11 +6,12 @@ import io.grpc.ManagedChannel;
 import jakarta.annotation.PostConstruct;
 import jakarta.validation.Valid;
 import org.goncharov.dotachooserweb.domain.Hero;
-import org.goncharov.dotachooserweb.dto.HeroesDto;
+import org.goncharov.dotachooserweb.dto.HeroesToChooseDto;
 import org.goncharov.dotachooserweb.services.ChoosingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -34,8 +35,18 @@ public class AppController {
         stub = ChoosingServiceGrpc.newBlockingStub(managedChannel);
     }
 
-    @PostMapping("/choose")
-    public ResponseEntity<?> choose(@Valid @RequestBody HeroesDto dto) {
+    @GetMapping("/heroes")
+    public ResponseEntity<?> getHeroes(){
+        try {
+            return ResponseEntity.ok(choosingService.findAll());
+        }catch (RuntimeException e){
+            return ResponseEntity.internalServerError()
+                    .build();
+        }
+    }
+
+    @PostMapping("/choosing")
+    public ResponseEntity<?> choose(@Valid @RequestBody HeroesToChooseDto dto) {
         System.out.println("Получили dto: " + dto.toString());
         var response = stub.choosing(Choosing.Heroes.newBuilder()
                 .addAllList(choosingService.sumList(dto.getEnemyTeam(), dto.getMyTeam()))
